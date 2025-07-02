@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Meu Portfólio</title>
+    <!-- Link para o arquivo CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="nav-logo">Meu Portfólio</h1>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre Mim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="formacao.html" class="nav-link">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contato.html" class="nav-link active">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="main-content">
+        <section class="content-section">
+            <h2>Entre em Contato</h2>
+            <p>
+                Estou sempre aberto a novas oportunidades e colaborações. Se você tem um projeto 
+                interessante, uma proposta de trabalho ou simplesmente quer bater um papo sobre 
+                tecnologia, não hesite em me contatar!
+            </p>
+            <p>
+                Preencha o formulário abaixo e entrarei em contato com você o mais breve possível. 
+                Todas as mensagens são importantes para mim e faço questão de responder pessoalmente.
+            </p>
+            
+            <!-- Formulário de contato -->
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome Completo *</label>
+                    <input 
+                        type="text" 
+                        id="nome" 
+                        name="nome" 
+                        required 
+                        placeholder="Digite seu nome completo"
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail *</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        required 
+                        placeholder="seu.email@exemplo.com"
+                    >
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea 
+                        id="mensagem" 
+                        name="mensagem" 
+                        required 
+                        placeholder="Escreva sua mensagem aqui... Conte-me sobre seu projeto, dúvida ou proposta."
+                    ></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <section class="content-section">
+            <h2>Outras Formas de Contato</h2>
+            <p>
+                Além do formulário acima, você também pode me encontrar através dos seguintes canais:
+            </p>
+            
+            <ul class="skills-list">
+                <li>
+                    <strong>E-mail Profissional:</strong> souzacastroj8@gmail.com<br>
+                    <em>Para propostas de trabalho e parcerias profissionais.</em>
+                </li>
+                
+                <li>
+                    <strong>WhatsApp:</strong> +55 (35) 997037119<br>
+                    <em>Para contatos rápidos e urgentes (horário comercial).</em>
+                </li>
+            </ul>
+
+            <h3>Localização</h3>
+            <p>
+                Atualmente estou baseado em <strong>Arceburgo, MG - Brasil</strong>, mas estou 
+                aberto a oportunidades de trabalho remoto e projetos internacionais. 
+               
+            </p>
+
+            <h3>Disponibilidade</h3>
+            <p>
+                <strong>Status atual:</strong> Disponível para novos projetos<br>
+                <strong>Horário de atendimento:</strong> Segunda a sexta, das 9h às 18h (GMT-3)<br>
+                <strong>Tempo de resposta:</strong> Até 24 horas em dias úteis
+            </p>
+
+            <h3>Tipos de Projeto</h3>
+            <p>Estou interessado em trabalhar com:</p>
+            <ul class="skills-list">
+                <li>Desenvolvimento de aplicações web completas (full-stack)</li>
+                <li>Criação de APIs REST e integração de sistemas</li>
+                <li>Desenvolvimento de interfaces de usuário modernas e responsivas</li>
+                <li>Consultoria em arquitetura de software e melhores práticas</li>
+                <li>Projetos de e-commerce e plataformas digitais</li>
+                <li>Aplicações com foco em performance e escalabilidade</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
